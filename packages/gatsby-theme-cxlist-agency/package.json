@@ -1,0 +1,38 @@
+{
+  "name": "@caixie/gatsby-theme-cxlist-agency",
+  "description": "DEX List's Gatsby theme: Agency",
+  "version": "0.1.0",
+  "private": false,
+  "main": "index.js",
+  "author": "Ding Yi <d@ding.one> (https://ding.one/)",
+  "license": "MIT",
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "clean": "gatsby clean",
+    "release": "np"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "gatsby": "^2.20.6",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.28",
+    "gatsby": "^2.20.6",
+    "gatsby-image": "^2.3.1",
+    "gatsby-plugin-emotion": "^4.2.1",
+    "gatsby-plugin-sharp": "^2.5.3",
+    "gatsby-plugin-theme-ui": "^0.3.0",
+    "gatsby-source-filesystem": "^2.2.2",
+    "gatsby-transformer-sharp": "^2.4.2",
+    "gatsby-transformer-yaml": "^2.3.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "rebass": "^4.0.7",
+    "theme-ui": "^0.3.1"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "name": "@caixie/gatsby-theme-cxlist-design",
+  "description": "DEX List's Gatsby theme: Design",
+  "version": "0.1.0",
+  "main": "index.js",
+  "author": "Baisheng <baisheng@gmail.com> (https://baisheng.me/)",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@emotion/core": "^10.0.28",
+    "@mdx-js/mdx": "^1.5.7",
+    "@mdx-js/react": "^1.5.7",
+    "@reach/router": "^1.3.3",
+    "@rebass/space": "^4.0.5",
+    "@theme-ui/sidenav": "^0.3.1",
+    "framer-motion": "^1.10.2",
+    "gatsby": "^2.20.6",
+    "gatsby-image": "^2.3.1",
+    "gatsby-plugin-catch-links": "^2.2.1",
+    "gatsby-plugin-emotion": "^4.2.1",
+    "gatsby-plugin-mailchimp": "^5.1.2",
+    "gatsby-plugin-mdx": "^1.1.3",
+    "gatsby-plugin-react-helmet": "^3.2.1",
+    "gatsby-plugin-sharp": "^2.5.3",
+    "gatsby-plugin-theme-ui": "^0.3.0",
+    "gatsby-remark-images": "^3.2.1",
+    "gatsby-source-filesystem": "^2.2.2",
+    "gatsby-transformer-sharp": "^2.4.2",
+    "gatsby-transformer-yaml": "^2.3.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-helmet": "^5.2.1",
+    "rebass": "^4.0.7",
+    "remark-slug": "^5.1.2",
+    "theme-ui": "^0.3.1",
+    "use-onclickoutside": "^0.3.1"
+  },
+  "peerDependencies": {
+    "gatsby": "^2.20.6",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}

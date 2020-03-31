@@ -1,0 +1,25 @@
+version: '3.5'
+services:
+  caixie.home:
+    build: .
+    #restart: 'unless-stopped'
+    networks:
+      - traefik
+      - default
+    labels:
+      - "traefik.enable=true"
+      - "traefik.docker.network=traefik"
+      - "traefik.http.routers.cxlist0.middlewares=https-redirect@file"
+      - "traefik.http.routers.cxlist0.entrypoints=http"
+      - "traefik.http.routers.cxlist0.rule=Host(`list.caixie.top`)"
+      - "traefik.http.routers.cxlist1.middlewares=https-redirect@file"
+      - "traefik.http.routers.cxlist1.entrypoints=https"
+      - "traefik.http.routers.cxlist1.tls=true"
+      - "traefik.http.routers.cxlist1.rule=Host(`list.caixie.top`)"
+      - "traefik.http.services.cxlistbackend.loadbalancer.server.scheme=http"
+      - "traefik.http.services.cxlistbackend.loadbalancer.server.port=80"
+    volumes:
+      - ./public:/pub
+networks:
+  traefik:
+    external: true
