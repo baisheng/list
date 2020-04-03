@@ -6,8 +6,8 @@
   },
   "scripts": {
     "watch": "lerna run watch --parallel",
-    "dev-server:start": "cd packages/dev-server && yarn start",
     "bootstrap": "lerna bootstrap",
+    "build": "lerna bootstrap && cd packages/list && yarn build",
     "test": "lerna run test --parallel",
     "lint": "lerna run lint --parallel",
     "dev": "lerna run dev --parallel"
