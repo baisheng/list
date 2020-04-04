@@ -1123,3 +1123,25 @@
       logo: './images/opensource/vendure.png'
       slogan: 'A modern, headless GraphQL-based e-commerce framework built with TypeScript & Nodejs'
       link: 'https://www.vendure.io/'
+- id: ppt
+  title: PPT 美化工具
+  item:
+    - name: 'iSlide'
+      logo: './images/ppt/islide.png'
+      slogan: '让PPT设计简单起来，iSlide是一款基于PowerPoint的插件工具'
+      link: 'https://www.islide.cc/'
+    - name: 'PPT美化大师'
+      logo: './images/ppt/meihua.jpeg'
+      slogan: '让制作专业精美PPT变得简单'
+      link: 'http://meihua.docer.com/'
+    - name: '口袋动画'
+      logo: './images/ppt/papocket.png'
+      slogan: '一款让PPT动画炫酷起来的插件'
+      link: 'https://www.papocket.com/'
+- id: dataviz
+  title: 数据可视化
+  item:
+    - name: '花火 Hanabi'
+      logo: './images/dataviz/hanabi.png'
+      slogan: '在线数据短视频工具，好看的图表形态各异，制作的工具简单如一'
+      link: 'http://hanabi.data-viz.cn/'
